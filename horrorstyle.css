@@ -1,0 +1,13 @@
+body{
+    background-color: brown;
+    color: #FFF;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.line{
+    text-decoration: line-through;
+}
