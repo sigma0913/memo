@@ -9,7 +9,12 @@ now = 0;
     };
 };
 
+const air = (arg) => {
+document.getElementsByTagName('li')[arg].textContent = '';
+}
+
 document.getElementsByTagName('button')[0].addEventListener('click', ()=> {
     max++;
     dot(max);
+    air(max-1);
 });
