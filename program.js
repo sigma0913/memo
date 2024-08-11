@@ -1,3 +1,5 @@
+//練習＋備忘録用
+
 let test = 'hello world';
 console.log(test);
 
@@ -11,3 +13,6 @@ index++;
 
 console.log(window.innerHeight);
 console.log(window.innerWidth);
+
+console.log('練習＋備忘録用のjs')
+console.log('深い意味はない')

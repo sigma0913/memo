@@ -1,6 +1,15 @@
-window.alert('...');
+let now = 0;
+let max = 0;
+
+const dot = (arg) => {
+now = 0;
+    while(now < arg){
+        window.alert('...');
+        now++;
+    };
+};
 
 document.getElementsByTagName('button')[0].addEventListener('click', ()=> {
-    window.alert('...');
-    console.log('hello');
+    max++;
+    dot(max);
 });
