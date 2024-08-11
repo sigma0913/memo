@@ -11,3 +11,12 @@ ul{
 .line{
     text-decoration: line-through;
 }
+
+button{
+
+    margin: 0px,10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FFF;
+    border-color: #FFF;
+}
