@@ -1,7 +1,7 @@
 let now = 0;
 let max = 0;
 
-const dot = (arg) => {
+const $dot = (arg) => {
 now = 0;
     while(now < arg){
         window.alert('...');
@@ -9,12 +9,12 @@ now = 0;
     };
 };
 
-const air = (arg) => {
+const $air = (arg) => {
 document.getElementsByTagName('li')[arg].textContent = '';
 }
 
 document.getElementsByTagName('button')[0].addEventListener('click', ()=> {
     max++;
-    dot(max);
-    air(max-1);
+    $dot(max);
+    $air(max-1);
 });
