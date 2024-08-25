@@ -34,14 +34,14 @@ a>span{
     display: flex;
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    width: 500px;
+    width: 700px;
     font-weight: bold;
 }
 
 .under{
     display: flex;
     border-bottom: 1px solid #000;
-    width: 500px;
+    width: 700px;
 }
 
 .l{
